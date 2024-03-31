@@ -1,0 +1,103 @@
+body{
+    background-color: rgba(61, 0, 0, 0.568);
+}
+
+.main-header {
+    background-color: rgba(110, 0, 0, 0.404);
+    width:100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main {
+    background-color: rgba(83, 0, 0, 0.507);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-list a {
+    color: rgb(36, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+img {
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+li{
+    color: rgb(36, 0, 0);
+}
+
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gallery-item{
+    margin: 0%;
+    width: 23%;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.gallery-img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.gallery-title{
+    text-align: center;
+    color: brown;
+}
+
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1ft);
+    gap: 40px;
+}
+
+textarea {
+    grid-column: 1/-1 ;
+}
+
+form button {
+    grid-column: 1/-1 ;
+}
+
+.nav-item{
+    text-shadow: 10px 10px 2px rgba(34, 0, 0, 0.747)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+           
+
